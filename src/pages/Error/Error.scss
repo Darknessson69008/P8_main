@@ -1,0 +1,42 @@
+$error-font-color:#FF6060;
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $error-font-color;
+    padding: 20px; 
+
+    &__title{
+        font-size: 288px;
+        font-weight: 700;
+        margin: 139px;
+
+        @media (max-width: 768px) {
+            font-size: 144px; 
+            margin: 70px;
+        }
+    }
+    &__message{
+        font-weight: 500;
+        font-size: 36px;
+
+        @media (max-width: 768px) {
+            font-size: 18px; 
+    }
+    &__link{
+        font-size: 18px;
+        text-decoration: none;
+        color: $error-font-color;
+        margin: 139px;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            margin: 70px; 
+        }
+    }
+}
+}
