@@ -11,7 +11,7 @@ function App() {
         <div className='app__container'>
           <Header />
           <Router />
-        </div>
+        </div> 
         <Footer />
       </BrowserRouter>
     </div>
